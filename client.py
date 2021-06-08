@@ -9,5 +9,5 @@ try:
     print("Shutting down remote machine...")
 
 except socket.error as error:
-    print(f"Coudn't connect to Host::{hostname} Port::{port}")
+    print(f"Couldn't connect to Host::{hostname} Port::{port}")
     print(error)
